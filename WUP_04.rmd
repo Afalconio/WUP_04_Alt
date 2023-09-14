@@ -85,3 +85,5 @@ The range of the three-level comparison tests show which races have significant 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+The analysis of the data ultimately shows that there isn't a significant difference in the results of the WORDSUM test which is represented in the data as a numerical variable when comparing most of the race groups which are represented in the data as a factor variable. A one-way anova test was run to see if there was a numerical difference in the data between the races as shown by the p-value being less then 0.05 at 0.0182. The two comparisons where there isn't a significant difference in test results are between the OTHER race and the BLACK race as well as the comparison between the WHITE and BLACK races. The comparison where there is a significant difference is between the WHITE and OTHER races.
