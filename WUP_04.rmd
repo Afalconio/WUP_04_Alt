@@ -59,6 +59,8 @@ From observing the boxplot, we can see that there doesn't seem to be any signifi
 favstats(WORDSUM~RACE,data=mydata)
 ```
 
+The summary of the statistics show that there doesn't seem to be a numerical difference that is significant, between the two races that are BLACK and WHITE when looking at the median and mean. The data also shows that there is in fact a significant numerical difference in the mean and median when looking at the OTHER race when compared to the BLACK race and the WHITE race.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
