@@ -80,6 +80,8 @@ summary.aov(model1)
 plot(TukeyHSD(model1),las=2)
 ```
 
+The range of the three-level comparison tests show which races have significant differences when compared. Since OTHER-BLACK and WHITE-BLACK both have a value of 0 within their 95% confidence range, there isn't a significant difference between the OTHER and BLACK race, and there isn't a significant difference between the WHITE and BLACK race. The comparison between the WHITE and OTHER races do show a significant difference between the two groups since the 95% confidence interval does not contain 0.
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
