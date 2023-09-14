@@ -31,7 +31,7 @@ mydata <- mydata %>%
 mutate(across(where(is.character), as.factor))
 ```
 
-We have changed all of the character variables into factor variables, and we see that our problem takes a numerical variable, WORDSUM, and explains it with a factor variable with three levels called RACE. A helper file can bed used to complete the analysis of the factor and numerical variables.
+We have changed all of the character variables into factor variables, and we see that our problem takes a numerical variable, WORDSUM, and explains it with a factor variable with three levels called RACE. A helper file can bed used to complete the analysis of the factor and numerical variables. If there is a clear variation or difference in the factor variable RACE, then further analysis will be done to analyze the differences with a one-way anova test and seeing the p-value to see if a Tukey plot will be necessary to see if there is a significant difference in the data.
 
 # Results
 
