@@ -49,6 +49,7 @@ basicCN <- ggplot(mydata,aes(x=RACE,y=WORDSUM))
 basicCN + geom_boxplot()
 ```
 
+From observing the boxplot, we can see that there doesn't seem to be any significant difference in the results of the WORDSUM tests between the two races that are BLACK and WHITE, but there is a significant difference with the OTHER race having significantly lower results on the WORDSUM tests compared to the BLACK and WHITE races.
 
 ### Numerical Descriptive Results
 
